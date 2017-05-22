@@ -1,0 +1,171 @@
+#pasto{
+	background-color: green;
+	width: 200%;
+	height: 100px;
+	bottom: 0;
+	position: absolute;
+}
+
+
+#sol{
+	background-color: yellow;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	top: 30px;
+	left: 30px;
+	position: relative;
+}
+
+/*estructura de la casa*/
+.casita{
+	position: fixed;
+	bottom: 0;
+}
+
+#caja .casa{
+	position: absolute;
+}
+
+/*base*/
+.cas1{
+	background-color: #3B170B;
+	width: 500px;
+	height: 300px;
+	bottom: 60px;
+	position: absolute;
+	left: 700px;
+}
+/*ventana*/
+.cas2{
+	background-color: #FF0080;
+	width: 130px;
+	height: 130px;
+	bottom: 150px;
+	position: absolute;
+	left: 1020px;
+}
+/*puerta*/
+.cas3{
+	background-color: #A4A4A4;
+	width: 130px;
+	height: 200px;
+	bottom: 60px;
+	position: absolute;
+	left: 770px;
+}
+/*techo*/
+.cas4 {
+	border-bottom: 150px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 450px;
+	width: 405px;
+	position: absolute;
+	bottom: 355px;
+	left: 699px;
+}
+/*chimenea*/
+.cas5{
+	background-color: #F78181;
+	width: 40px;
+	height: 80px;
+	bottom: 400px;
+	position: absolute;
+	left: 1060px;
+}
+/*burbujas*/
+.cas6{
+	background-color: #A4A4A4;
+	width: 25px;
+	height: 25px;
+	bottom: 490px;
+	border-radius: 50%;
+	position: absolute;
+	left: 1080px;
+}
+
+.cas7{
+	background-color: #A4A4A4;
+	width: 25px;
+	height: 25px;
+	bottom: 500px;
+	border-radius: 50%;
+	position: absolute;
+	left: 1110px;
+}
+
+.cas8{
+	background-color: #A4A4A4;
+	width: 25px;
+	height: 25px;
+	bottom: 520px;
+	border-radius: 50%;
+	position: absolute;
+	left: 1150px;
+}
+
+/*corazon puerta*/
+#heart {
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    bottom: 120px;
+    left: 790px;
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+/*luna*/
+
+#luna{
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	top: 30px;
+	left: 1350px;
+	position: absolute;
+}
+#luna1{
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	top: 10px;
+	left: 1400px;
+	position: absolute;
+}
